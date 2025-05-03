@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+
+.slick-prev,
+.slick-next {
+  z-index: 10;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+  font-size: 24px;
+}
+
+.input {
+  @apply border p-2 rounded w-full;
+}
+
+.btn {
+  @apply mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700;
+}

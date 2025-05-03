@@ -1,0 +1,534 @@
+{
+  "talabalar": [
+    {
+      "id": "9ac9",
+      "fio": "Dilnoza Yusupova",
+      "yoshi": "19",
+      "jinsi": "Ayol",
+      "imageUrl": "/Talabalar/qiz1.jpg",
+      "guruhlarId": "9e8e",
+      "telefon": "+998 91 265 54 98",
+      "izoh": "Namunali talaba"
+    },
+    {
+      "id": "1a46",
+      "fio": "Yoriyev Dilshod",
+      "yoshi": "21",
+      "jinsi": "Erkak",
+      "imageUrl": "/Talabalar/bola5.jpg",
+      "guruhlarId": "9e8e",
+      "telefon": "+998 99 549 89 55",
+      "izoh": "Yaxshi talaba"
+    },
+    {
+      "id": "2b57",
+      "fio": "Karimova Sarvinoz",
+      "yoshi": "20",
+      "jinsi": "Ayol",
+      "imageUrl": "/Talabalar/qiz2.jpg",
+      "guruhlarId": "9e8e",
+      "telefon": "+998 90 123 45 67",
+      "izoh": "Faol talaba"
+    },
+    {
+      "id": "3c68",
+      "fio": "Toshmatov Jamshid",
+      "yoshi": "22",
+      "jinsi": "Erkak",
+      "imageUrl": "/Talabalar/bola6.jpg",
+      "guruhlarId": "9e8e",
+      "telefon": "+998 91 234 56 78",
+      "izoh": "Ijodiy talaba"
+    },
+    {
+      "id": "4d79",
+      "fio": "Qodirova Malika",
+      "yoshi": "19",
+      "jinsi": "Ayol",
+      "imageUrl": "/Talabalar/qiz3.jpg",
+      "guruhlarId": "9e8e",
+      "telefon": "+998 93 345 67 89",
+      "izoh": "Mehnatsevar talaba"
+    },
+    {
+      "id": "5e8a",
+      "fio": "Nazarov Farrux",
+      "yoshi": "21",
+      "jinsi": "Erkak",
+      "imageUrl": "/Talabalar/bola7.jpg",
+      "guruhlarId": "9e8e",
+      "telefon": "+998 94 456 78 90",
+      "izoh": "Sportchi talaba"
+    },
+    {
+      "id": "6f9b",
+      "fio": "Olimova Zebo",
+      "yoshi": "20",
+      "jinsi": "Ayol",
+      "imageUrl": "/Talabalar/qiz4.jpg",
+      "guruhlarId": "7a04",
+      "telefon": "+998 95 567 89 01",
+      "izoh": "Ijtimoiy talaba"
+    },
+    {
+      "id": "7g0c",
+      "fio": "Sherzodov Aziz",
+      "yoshi": "22",
+      "jinsi": "Erkak",
+      "imageUrl": "/Talabalar/bola9.jpg",
+      "guruhlarId": "7a04",
+      "telefon": "+998 96 678 90 12",
+      "izoh": "Lider talaba"
+    },
+    {
+      "id": "8h1d",
+      "fio": "Raximova Dilfuza",
+      "yoshi": "19",
+      "jinsi": "Ayol",
+      "imageUrl": "/Talabalar/qiz5.jpg",
+      "guruhlarId": "7a04",
+      "telefon": "+998 97 789 01 23",
+      "izoh": "Ijodkor talaba"
+    },
+    {
+      "id": "9i2e",
+      "fio": "Qurbonov Sardor",
+      "yoshi": "21",
+      "jinsi": "Erkak",
+      "imageUrl": "/Talabalar/bola10.jpg",
+      "guruhlarId": "7a04",
+      "telefon": "+998 98 890 12 34",
+      "izoh": "Texnologik talaba"
+    },
+    {
+      "id": "0j3f",
+      "fio": "Yuldasheva Nigora",
+      "yoshi": "20",
+      "jinsi": "Ayol",
+      "imageUrl": "/Talabalar/qiz6.jpg",
+      "guruhlarId": "7a04",
+      "telefon": "+998 99 901 23 45",
+      "izoh": "Ilmiy talaba"
+    },
+    {
+      "id": "1k4g",
+      "fio": "Ismoilov Javohir",
+      "yoshi": "22",
+      "jinsi": "Erkak",
+      "imageUrl": "/Talabalar/bola11.jpg",
+      "guruhlarId": "7a04",
+      "telefon": "+998 90 012 34 56",
+      "izoh": "Xalqaro talaba"
+    }
+  ],
+  "oqituvchilar": [
+    {
+      "id": "f36e",
+      "fio": "Xolmirzayev Ahmadjon",
+      "yoshi": "30",
+      "imageUrl": "/Talabalar/bola8.jpg",
+      "telefon": "+998938882238",
+      "fanId": "1f4b",
+      "jinsi": "Erkak",
+      "izoh": "Juda ixtidorli o'qituvchi Sizni ADM Jizzakh zavodiga sayohatga taklif qilamiz! Kelajakdagi avtomobilingiz qanday yaratilganini koʻrmoqchimisiz? Kia Uzbekistan sizni Sonet modeli ishlab chiqaradigan ADM Jizzakh zavodiga qiziqarli ekskursiyaga taklif qiladi. Tadbir tafsilotlari:   Sana: 2025-yil 16-may kuni Bepul transfer Tushlik kiradi Kia Sonet zavodi va ishlab chiqarish jarayoni haqida umumiy ma'limot Ilg'or texnologiyalar muhitiga sho'ng'in va O'zbekistonda eng mashhur Kia krossoverini yaratishning barcha bosqichlarini o'rganing. Bu avtomobilni yig'ish jarayyonini ko'rish va unutilmas tajribaga ega bo'lish uchun noyob imkoniyatdir.Joylar soni cheklangan, oldindan ro'yxatdan o'tish talab etiladi! Kia dunyosining bir qismi bo'lish va sevimli Kia Sonet ishlab chiqarishini o'z ko'zingiz bilan ko'rish imkoniyatini qo'ldan boy bermang!"
+    },
+    {
+      "id": "4c5d",
+      "fio": "Rustamov Baxtiyor",
+      "yoshi": "25",
+      "imageUrl": "/Talabalar/bola3.jpg",
+      "telefon": "+998915578558",
+      "fanId": "920d",
+      "jinsi": "Erkak",
+      "izoh": "Yaxshi talabchan o'qituvchi",
+      "tYili": "2025-05-10"
+    },
+    {
+      "id": "5d6e",
+      "fio": "Nosirova Gulnora",
+      "yoshi": "35",
+      "imageUrl": "/Talabalar/qiz7.jpg",
+      "telefon": "+998912345678",
+      "fanId": "1f4b",
+      "jinsi": "Ayol",
+      "izoh": "Tajribali dasturlash o'qituvchisi"
+    },
+    {
+      "id": "6e7f",
+      "fio": "Qodirov Shoxrux",
+      "yoshi": "40",
+      "imageUrl": "/Talabalar/bola12.jpg",
+      "telefon": "+998934567890",
+      "fanId": "920d",
+      "jinsi": "Erkak",
+      "izoh": "Matematika fanidan ustoz"
+    },
+    {
+      "id": "7f8g",
+      "fio": "Toshpo'latova Zulfiya",
+      "yoshi": "28",
+      "imageUrl": "/Talabalar/qiz8.jpg",
+      "telefon": "+998945678901",
+      "fanId": "1f4b",
+      "jinsi": "Ayol",
+      "izoh": "Yosh va istiqbolli o'qituvchi"
+    },
+    {
+      "id": "8g9h",
+      "fio": "Abdullayev Farhod",
+      "yoshi": "45",
+      "imageUrl": "/Talabalar/bola13.jpg",
+      "telefon": "+998956789012",
+      "fanId": "920d",
+      "jinsi": "Erkak",
+      "izoh": "Fan doktori, professor"
+    },
+    {
+      "id": "9h0i",
+      "fio": "Yusupova Mohinur",
+      "yoshi": "32",
+      "imageUrl": "/Talabalar/qiz9.jpg",
+      "telefon": "+998967890123",
+      "fanId": "1f4b",
+      "jinsi": "Ayol",
+      "izoh": "Dasturlash bo'yicha mutaxassis"
+    },
+    {
+      "id": "0i1j",
+      "fio": "Rahimov Ilhom",
+      "yoshi": "38",
+      "imageUrl": "/Talabalar/bola14.jpg",
+      "telefon": "+998978901234",
+      "fanId": "920d",
+      "jinsi": "Erkak",
+      "izoh": "Matematik analizdan dars beradi"
+    },
+    {
+      "id": "1j2k",
+      "fio": "Xolmatova Sevara",
+      "yoshi": "29",
+      "imageUrl": "/Talabalar/qiz10.jpg",
+      "telefon": "+998989012345",
+      "fanId": "1f4b",
+      "jinsi": "Ayol",
+      "izoh": "Sun'iy intellekt bo'yicha mutaxassis"
+    },
+    {
+      "id": "2k3l",
+      "fio": "To'rayev Bahodir",
+      "yoshi": "50",
+      "imageUrl": "/Talabalar/bola1.jpg",
+      "telefon": "+998990123456",
+      "fanId": "920d",
+      "jinsi": "Erkak",
+      "izoh": "Tajribali matematik o'qituvchi"
+    },
+    {
+      "id": "3l4m",
+      "fio": "Mirzayeva Dilbar",
+      "yoshi": "27",
+      "imageUrl": "/Talabalar/qiz1.jpg",
+      "telefon": "+998901234567",
+      "fanId": "1f4b",
+      "jinsi": "Ayol",
+      "izoh": "Web dasturlash bo'yicha o'qituvchi"
+    },
+    {
+      "id": "4m5n",
+      "fio": "Sobirov Jamol",
+      "yoshi": "42",
+      "imageUrl": "/Talabalar/bola2.jpg",
+      "telefon": "+998912345678",
+      "fanId": "920d",
+      "jinsi": "Erkak",
+      "izoh": "Diskret matematika bo'yicha o'qituvchi"
+    }
+  ],
+  "guruhlar": [
+    {
+      "id": "9e8e",
+      "nomi": "ATT2101KU"
+    },
+    {
+      "id": "7a04",
+      "nomi": "ATT2102KU"
+    },
+    {
+      "id": "845a",
+      "nomi": "TMI2101KU"
+    }
+  ],
+  "fanlar": [
+    {
+      "id": "920d",
+      "nomi": "Matematika"
+    },
+    {
+      "id": "1f4b",
+      "nomi": "Dasturlash"
+    },
+    {
+      "id": "2g5c",
+      "nomi": "Fizika"
+    },
+    {
+      "id": "3h6d",
+      "nomi": "Kimyo"
+    },
+    {
+      "id": "4i7e",
+      "nomi": "Biologiya"
+    },
+    {
+      "id": "5j8f",
+      "nomi": "Ingliz tili"
+    },
+    {
+      "id": "6k9g",
+      "nomi": "Tarix"
+    },
+    {
+      "id": "7l0h",
+      "nomi": "Geografiya"
+    },
+    {
+      "id": "8m1i",
+      "nomi": "Adabiyot"
+    },
+    {
+      "id": "9n2j",
+      "nomi": "Informatika"
+    },
+    {
+      "id": "0o3k",
+      "nomi": "Iqtisod"
+    },
+    {
+      "id": "1p4l",
+      "nomi": "Falsafa"
+    }
+  ],
+  "darsXonalari": [
+    {
+      "id": "d8a2",
+      "nomi": "124"
+    },
+    {
+      "id": "ce2f",
+      "nomi": "112"
+    },
+    {
+      "id": "dfb3",
+      "nomi": "215"
+    },
+    {
+      "id": "egc4",
+      "nomi": "318"
+    },
+    {
+      "id": "fhd5",
+      "nomi": "104"
+    },
+    {
+      "id": "gie6",
+      "nomi": "207"
+    },
+    {
+      "id": "hjf7",
+      "nomi": "311"
+    },
+    {
+      "id": "ikg8",
+      "nomi": "123"
+    },
+    {
+      "id": "jlh9",
+      "nomi": "226"
+    },
+    {
+      "id": "kmi0",
+      "nomi": "329"
+    },
+    {
+      "id": "lnj1",
+      "nomi": "105"
+    },
+    {
+      "id": "mok2",
+      "nomi": "208"
+    }
+  ],
+  "darsJadvallari": [
+    {
+      "id": "aea4",
+      "haftaKuni": 1,
+      "boshlanishVaqti": "18:00",
+      "tugashVaqti": "19:20",
+      "paraNomeri": 1,
+      "darsXonalariId": "d8a2",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "f36e",
+      "fanId": "920d"
+    },
+    {
+      "id": "5a7c",
+      "haftaKuni": 1,
+      "boshlanishVaqti": "19:30",
+      "tugashVaqti": "20:50",
+      "paraNomeri": 2,
+      "darsXonalariId": "ce2f",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "4c5d",
+      "fanId": "1f4b"
+    },
+    {
+      "id": "498d",
+      "haftaKuni": 1,
+      "boshlanishVaqti": "18:00",
+      "tugashVaqti": "19:20",
+      "paraNomeri": 1,
+      "darsXonalariId": "ce2f",
+      "guruhlarId": "7a04",
+      "oqituvchilarId": "f36e",
+      "fanId": "920d"
+    },
+    {
+      "id": "6b8e",
+      "haftaKuni": 2,
+      "boshlanishVaqti": "09:00",
+      "tugashVaqti": "10:20",
+      "paraNomeri": 1,
+      "darsXonalariId": "dfb3",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "5d6e",
+      "fanId": "1f4b"
+    },
+    {
+      "id": "7c9f",
+      "haftaKuni": 2,
+      "boshlanishVaqti": "10:30",
+      "tugashVaqti": "11:50",
+      "paraNomeri": 2,
+      "darsXonalariId": "egc4",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "6e7f",
+      "fanId": "920d"
+    },
+    {
+      "id": "8d0g",
+      "haftaKuni": 3,
+      "boshlanishVaqti": "14:00",
+      "tugashVaqti": "15:20",
+      "paraNomeri": 3,
+      "darsXonalariId": "fhd5",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "7f8g",
+      "fanId": "1f4b"
+    },
+    {
+      "id": "9e1h",
+      "haftaKuni": 3,
+      "boshlanishVaqti": "15:30",
+      "tugashVaqti": "16:50",
+      "paraNomeri": 4,
+      "darsXonalariId": "gie6",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "8g9h",
+      "fanId": "920d"
+    },
+    {
+      "id": "0f2i",
+      "haftaKuni": 4,
+      "boshlanishVaqti": "09:00",
+      "tugashVaqti": "10:20",
+      "paraNomeri": 1,
+      "darsXonalariId": "hjf7",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "9h0i",
+      "fanId": "1f4b"
+    },
+    {
+      "id": "1g3j",
+      "haftaKuni": 4,
+      "boshlanishVaqti": "10:30",
+      "tugashVaqti": "11:50",
+      "paraNomeri": 2,
+      "darsXonalariId": "ikg8",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "0i1j",
+      "fanId": "920d"
+    },
+    {
+      "id": "2h4k",
+      "haftaKuni": 5,
+      "boshlanishVaqti": "13:00",
+      "tugashVaqti": "14:20",
+      "paraNomeri": 3,
+      "darsXonalariId": "jlh9",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "1j2k",
+      "fanId": "1f4b"
+    },
+    {
+      "id": "3i5l",
+      "haftaKuni": 5,
+      "boshlanishVaqti": "14:30",
+      "tugashVaqti": "15:50",
+      "paraNomeri": 4,
+      "darsXonalariId": "kmi0",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "2k3l",
+      "fanId": "920d"
+    },
+    {
+      "id": "4j6m",
+      "haftaKuni": 6,
+      "boshlanishVaqti": "10:00",
+      "tugashVaqti": "11:20",
+      "paraNomeri": 2,
+      "darsXonalariId": "lnj1",
+      "guruhlarId": "9e8e",
+      "oqituvchilarId": "3l4m",
+      "fanId": "1f4b"
+    }
+  ],
+  "foydalanuvchilar": [
+    {
+      "id": "0f2h",
+      "fio": "Zokirov Urolbek",
+      "userName": "urolbek",
+      "password": "urolbek2002",
+      "imageUrl": "/Talabalar/bola5.jpg",
+      "roll": "admin",
+      "adminQoshish": true
+    },
+    {
+      "id": "0f2h",
+      "fio": "Xolmirzayev Ahmadjon",
+      "userName": "ahmadjon",
+      "password": "ahmadjon01",
+      "imageUrl": "/Talabalar/bola6.jpg",
+      "roll": "admin",
+      "adminQoshish": false
+    },
+    {
+      "id": "0f2l",
+      "fio": "Nazarov Farrux",
+      "userName": "farrux",
+      "password": "12345678",
+      "imageUrl": "/Talabalar/bola10.jpg",
+      "roll": "user",
+      "adminQoshish": false
+    },
+    {
+      "id": "75b4",
+      "fio": "Rustamov Baxtiyor",
+      "userName": "baxtiyor",
+      "password": "baxti03",
+      "imageUrl": "/Talabalar/bola4.jpg",
+      "roll": "admin",
+      "adminQoshish": "Admin qo'sha olish",
+      "pasword": "12345678"
+    }
+  ]
+}
