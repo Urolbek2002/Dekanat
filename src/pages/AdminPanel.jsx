@@ -47,7 +47,7 @@ const AdminPanel = () => {
   const roll = [{ key: 'admin' }, { key: 'user' }];
   const xuquq = [
     { key: "Admin qo'sha olmaslik", value: false },
-    { key: "Admin qo'sha olish" },
+    { key: "Admin qo'sha olish", value: true },
   ];
 
   const fetchData = async () => {

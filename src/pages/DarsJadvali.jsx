@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { DataService } from '../config/DataService';
 import ENDPOINTS from '../config/endpoints';
+import DarsQoshish from '../components/DarsQoshish';
 
 function DarsJadvali() {
   const [darsJadvali, setDarsJadvali] = useState([]);
@@ -38,7 +38,7 @@ function DarsJadvali() {
           setLogin(true);
         }
       } catch (err) {
-        console.error('Maʼlumotlarni olishda xatolik:', err);
+        console.error('Maʼlumotlarni olishda xatolik: ', err);
       }
     };
     fetchData();
@@ -259,6 +259,8 @@ function DarsJadvali() {
 
   return (
     <div className="p-4">
+      <DarsQoshish />
+
       <div className="mb-4 flex flex-wrap items-center justify-between gap-4">
         <div className="w-full md:w-auto">
           <label
@@ -322,12 +324,12 @@ function DarsJadvali() {
           <thead className="bg-gray-100 text-gray-700">
             <tr>
               <th className="px-2 py-1 md:px-4 md:py-2 border">ID</th>
+              <th className="px-2 py-1 md:px-4 md:py-2 border">Guruh</th>
               <th className="px-2 py-1 md:px-4 md:py-2 border">Hafta kuni</th>
+              <th className="px-2 py-1 md:px-4 md:py-2 border">Para</th>
               <th className="px-2 py-1 md:px-4 md:py-2 border">Boshlanish</th>
               <th className="px-2 py-1 md:px-4 md:py-2 border">Tugash</th>
-              <th className="px-2 py-1 md:px-4 md:py-2 border">Para</th>
               <th className="px-2 py-1 md:px-4 md:py-2 border">Dars xonasi</th>
-              <th className="px-2 py-1 md:px-4 md:py-2 border">Guruh</th>
               <th className="px-2 py-1 md:px-4 md:py-2 border">O'qituvchi</th>
               <th className="px-2 py-1 md:px-4 md:py-2 border">Fan</th>
               {editMode && (
@@ -354,6 +356,34 @@ function DarsJadvali() {
                   <td className="px-2 py-1 md:px-4 md:py-2 border">
                     {editMode ? (
                       <select
+                        value={item.guruhId}
+                        onChange={(e) => {
+                          const selectedGuruh = guruhlar.find(
+                            (g) => g.id.toString() === e.target.value,
+                          );
+                          handleFieldChange(item.id, 'guruhId', e.target.value);
+                          handleFieldChange(
+                            item.id,
+                            'guruh',
+                            selectedGuruh?.nomi || '',
+                          );
+                        }}
+                        className="w-full p-1 border rounded"
+                      >
+                        <option value="">Tanlang</option>
+                        {guruhlar.map((guruh) => (
+                          <option key={guruh.id} value={guruh.id}>
+                            {guruh.nomi}
+                          </option>
+                        ))}
+                      </select>
+                    ) : (
+                      item.guruh
+                    )}
+                  </td>
+                  <td className="px-2 py-1 md:px-4 md:py-2 border">
+                    {editMode ? (
+                      <select
                         value={item.haftaKuni}
                         onChange={(e) =>
                           handleFieldChange(
@@ -372,6 +402,26 @@ function DarsJadvali() {
                       </select>
                     ) : (
                       haftaKunlari[item.haftaKuni]
+                    )}
+                  </td>
+                  <td className="px-2 py-1 md:px-4 md:py-2 border">
+                    {editMode ? (
+                      <input
+                        type="number"
+                        min="1"
+                        max="8"
+                        value={item.paraNomeri}
+                        onChange={(e) =>
+                          handleFieldChange(
+                            item.id,
+                            'paraNomeri',
+                            parseInt(e.target.value),
+                          )
+                        }
+                        className="w-full p-1 border rounded"
+                      />
+                    ) : (
+                      item.paraNomeri
                     )}
                   </td>
                   <td className="px-2 py-1 md:px-4 md:py-2 border">
@@ -410,26 +460,7 @@ function DarsJadvali() {
                       item.tugashVaqti
                     )}
                   </td>
-                  <td className="px-2 py-1 md:px-4 md:py-2 border">
-                    {editMode ? (
-                      <input
-                        type="number"
-                        min="1"
-                        max="8"
-                        value={item.paraNomeri}
-                        onChange={(e) =>
-                          handleFieldChange(
-                            item.id,
-                            'paraNomeri',
-                            parseInt(e.target.value),
-                          )
-                        }
-                        className="w-full p-1 border rounded"
-                      />
-                    ) : (
-                      item.paraNomeri
-                    )}
-                  </td>
+
                   <td className="px-2 py-1 md:px-4 md:py-2 border">
                     {editMode ? (
                       <select
@@ -462,34 +493,7 @@ function DarsJadvali() {
                       item.darsXona
                     )}
                   </td>
-                  <td className="px-2 py-1 md:px-4 md:py-2 border">
-                    {editMode ? (
-                      <select
-                        value={item.guruhId}
-                        onChange={(e) => {
-                          const selectedGuruh = guruhlar.find(
-                            (g) => g.id.toString() === e.target.value,
-                          );
-                          handleFieldChange(item.id, 'guruhId', e.target.value);
-                          handleFieldChange(
-                            item.id,
-                            'guruh',
-                            selectedGuruh?.nomi || '',
-                          );
-                        }}
-                        className="w-full p-1 border rounded"
-                      >
-                        <option value="">Tanlang</option>
-                        {guruhlar.map((guruh) => (
-                          <option key={guruh.id} value={guruh.id}>
-                            {guruh.nomi}
-                          </option>
-                        ))}
-                      </select>
-                    ) : (
-                      item.guruh
-                    )}
-                  </td>
+
                   <td className="px-2 py-1 md:px-4 md:py-2 border">
                     {editMode ? (
                       <select
